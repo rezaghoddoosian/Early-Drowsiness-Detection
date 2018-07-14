@@ -442,7 +442,7 @@ for i in range(5): #Cross validation but recommended to run each fold a few time
     # start indices are the indices in BlinksTest where the set of blink sequences in each video starts. It is used for VA, BSRE and BSA  calculation
     #These numbers are specifically for the "Blinks" and "BlinksTest" arrays in my case. If you generate the blinks from scratch,
     # The numbers should be re-adjusted.
-    #NOTE: These indices are only used to compute the Video Accuracy of the test set.
+    #NOTE: These indices are only used to compute three evaluation metrics of the test set.
     if i==0:
         start_indices=[0,52,106,156,164,182,219,224,303,318,330,398,443,471,521,615,657,693,718,753,879,948,949,965,
                        1068,1091,1126,1177,1178,1185,1200,1221,1226] # for step_size=30
@@ -510,10 +510,10 @@ for i in range(5): #Cross validation but recommended to run each fold a few time
 
     if load==False:
         np.save(open('./x%d.npy' %ii, 'wb'),x)
-        np.save(open('./loss%d.npy'%ii, 'wb'),loss)
-        np.save(open('./accuracy%d.npy' %ii, 'wb'),accuracy)
-        np.save(open('./loss%dTest.npy'%ii, 'wb'),loss_Test)
-        np.save(open('./accuracy%dTest.npy'%ii, 'wb'),accuracy_Test)
-        np.save(open('./accuracy%dVTest.npy'%ii, 'wb'),acc_per_Vid)
+        np.save(open('./loss%d.npy'%ii, 'wb'),loss) #for training
+        np.save(open('./accuracy%d.npy' %ii, 'wb'),accuracy) #for training
+        np.save(open('./loss%dTest.npy'%ii, 'wb'),loss_Test) #for test
+        np.save(open('./accuracy%dTest.npy'%ii, 'wb'),accuracy_Test) #for test (BSA)
+        np.save(open('./accuracy%dVTest.npy'%ii, 'wb'),acc_per_Vid) #for test    (VA)
 
 
