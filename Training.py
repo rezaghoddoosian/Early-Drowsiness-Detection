@@ -440,6 +440,9 @@ for i in range(5): #Cross validation but recommended to run each fold a few time
     print(np.std(BlinksTest[:,:,0]),np.std(BlinksTest[:,:,1]),np.std(BlinksTest[:,:,2]),np.std(BlinksTest[:,:,3]))
 
     # start indices are the indices in BlinksTest where the set of blink sequences in each video starts. It is used for VA, BSRE and BSA  calculation
+    #These numbers are specifically for the "Blinks" and "BlinksTest" arrays in my case. If you generate the blinks from scratch,
+    # The numbers should be re-adjusted.
+    #NOTE: These indices are only used to compute the Video Accuracy of the test set.
     if i==0:
         start_indices=[0,52,106,156,164,182,219,224,303,318,330,398,443,471,521,615,657,693,718,753,879,948,949,965,
                        1068,1091,1126,1177,1178,1185,1200,1221,1226] # for step_size=30
