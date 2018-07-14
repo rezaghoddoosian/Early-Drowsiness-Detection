@@ -5,6 +5,7 @@ This proposed temporal model uses blink features to detect drowsiness with an in
 
 ## Instruction on how to use the code:
 *THESE CODES WERE APPLIED ON THE UTA-RLDD DATASET
+0- Make sure all .py files are downloaded 
 
 1-Blink_Video.py:
   This file is fed by the input video. Then, it detects the blinks and outputs four features of all blinks in a text file.
