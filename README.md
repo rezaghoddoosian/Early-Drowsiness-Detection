@@ -1,7 +1,10 @@
 # Early-Drowsiness-Detection
-The supporting code and data used for the paper:"A Realistic Dataset and Baseline Temporal Model for Early Drowsiness Detection"
+The supporting code and data used for the paper:"A Realistic Dataset and Baseline Temporal Model for Early Drowsiness Detection
+
+This proposed temporal model uses blink features to detect drowsiness with an intermediate regression step, where drowsiness is estimated with a score from 0 to 10.
+
 ## Instruction on how to use the code:
-*THESE CODES WERE APPLIED ON THE UTA_RLDD DATASET
+*THESE CODES WERE APPLIED ON THE UTA-RLDD DATASET
 
 1-Blink_Video.py:
   This file is fed by the input video. Then, it detects the blinks and outputs four features of all blinks in a text file.
