@@ -5,9 +5,13 @@ The supporting code and data used for the paper:"A Realistic Dataset and Baselin
 
 1-Blink_Video.py:
   This file gets the input video, then detects the blinks and outputs four features of all blins in a text file
+  
   ("Trained_SVM_C=1000_gamma=0.1_for 7kNegSample.sav" is used for blink detection.)
+  
   *Use the below link to download "shape_predictor_68_face_landmarks.dat"
+  
   https://drive.google.com/open?id=1nrfc-_pdIxNn2yO1_e7CxTyJQIk3A-vX
+  
   "shape_predictor_68_face_landmarks.dat" is the pre-trained facial landmark detector inside the dlib library.
 
 2-Preprocessing.py
@@ -20,9 +24,13 @@ The supporting code and data used for the paper:"A Realistic Dataset and Baselin
  
  
   For convenience, five pre-trained models are provided, where each model uses one of the folds as the test set in a five fold cross         validation.
+  
   These three files are pre-trained for each training session on the fold X as the test fold:
+  
     my_modelX.data-00000-of-00001
+    
     my_modelX.index
+    
     my_modelX.meta
   
   
