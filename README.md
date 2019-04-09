@@ -15,7 +15,7 @@ This proposed temporal model uses blink features to detect both early and deep d
 
 *You can refer to the comments inside each .py file for more detailed information*
 
-### 0- Make sure all .py files are downloaded then install all the required packages. You can refer to the folowing link for a short instruction on installing some of the required packages like dlib:
+### 0- Make sure all .py files are downloaded then install all the required packages. You can refer to the following link for a short instruction on installing some of the required packages like dlib:
 https://www.pyimagesearch.com/2017/03/27/how-to-install-dlib/
 
 Or for the conda environment you can use the following command lines:
