@@ -506,12 +506,12 @@ for i in range(5): #Cross validation but recommended to run each fold a few time
                                                   lr=0.000053,th=1.253,start_i=start_indices,load=load,fold_num=ii)
 
 
-    # if load==False:
-    #     np.save(open('./x%d.npy' %ii, 'wb'),x)
-    #     np.save(open('./loss%d.npy'%ii, 'wb'),loss) #for training
-    #     np.save(open('./accuracy%d.npy' %ii, 'wb'),accuracy) #for training
-    #     np.save(open('./loss%dTest.npy'%ii, 'wb'),loss_Test) #for test
-    #     np.save(open('./accuracy%dTest.npy'%ii, 'wb'),accuracy_Test) #for test (BSA)
-    #     np.save(open('./accuracy%dVTest.npy'%ii, 'wb'),acc_per_Vid) #for test    (VA)
+    if load==False:
+        np.save(open('./x%d.npy' %ii, 'wb'),x)
+        np.save(open('./loss%d.npy'%ii, 'wb'),loss) #for training
+        np.save(open('./accuracy%d.npy' %ii, 'wb'),accuracy) #for training
+        np.save(open('./loss%dTest.npy'%ii, 'wb'),loss_Test) #for test
+        np.save(open('./accuracy%dTest.npy'%ii, 'wb'),accuracy_Test) #for test (BSA)
+        np.save(open('./accuracy%dVTest.npy'%ii, 'wb'),acc_per_Vid) #for test    (VA)
 
 
