@@ -1,11 +1,10 @@
+#  Realistic Dataset and Baseline Temporal Model for Early Drowsiness Detection
+
+
+
+
+
 # These codes were run on Ubuntu 16.04 with tensorflow version 1.8
-
-
-
-
-
-
-# Early-Drowsiness-Detection
 The supporting code and data used for the paper:"A Realistic Dataset and Baseline Temporal Model for Early Drowsiness Detection":
 
 This proposed temporal model uses blink features to detect both early and deep drowsiness with an intermediate regression step, where drowsiness is estimated with a score from 0 to 10. 
