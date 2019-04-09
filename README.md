@@ -68,7 +68,7 @@ Or for the conda environment you can use the following command lines:
  
   For convenience, five pre-trained models are provided, where each model used one of the folds as the test set in a five fold cross validation.
   
-  These three files are pre-trained models for one training session, where fold X had been used as the test fold:
+  These three files are pre-trained models for the training session of fold X, where fold X had been used as the test fold:
   
     my_modelX.data-00000-of-00001
     
