@@ -20,27 +20,27 @@ https://www.pyimagesearch.com/2017/03/27/how-to-install-dlib/
 
 Or for the conda environment you can use the following command lines:
 
-conda install -c anaconda tensorflow-gpu==1.8.0 
+~$ conda install -c anaconda tensorflow-gpu==1.8.0 
 
-sudo apt-get install build-essential cmake
+~$ sudo apt-get install build-essential cmake
 
-sudo apt-get install libgtk-3-dev
+~$ sudo apt-get install libgtk-3-dev
 
-sudo apt-get install libboost-all-dev
+~$ sudo apt-get install libboost-all-dev
 
-conda install -c anaconda scipy
+~$ conda install -c anaconda scipy
 
-wget https://bootstrap.pypa.io/get-pip.py
+~$ wget https://bootstrap.pypa.io/get-pip.py
 
-conda install -c menpo dlib
+~$ conda install -c menpo dlib
 
-conda install -c conda-forge scikit-image
+~$ conda install -c conda-forge scikit-image
 
-pip install imutils
+~$ pip install imutils
 
-conda install scikit-learn
+~$ conda install scikit-learn
 
-conda install -c conda-forge opencv
+~$ conda install -c conda-forge opencv
 
 	
 ### 1- Run Blink_Video.py:
