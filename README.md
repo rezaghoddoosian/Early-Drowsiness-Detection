@@ -80,11 +80,17 @@ Or for the conda environment you can use the following command lines:
   
 NOTE: References used for each code are mentioned on top of each code.
 
-Link to the UTA-RLDD dataset:
+#### Citation:
+All documents (such as publications, presentations, posters, etc.) that report results, analysis, research, or equivalent that were obtained by using this source should cite the following research paper:
+https://arxiv.org/abs/1904.07312
+
+
+
+#### Link to the UTA-RLDD dataset:
 
 https://sites.google.com/view/utarldd/home
 
-Link to the demo on youtube:
+#### Link to the demo on youtube:
 https://youtu.be/3psnER2oVUA
 
 "I hope the result of this work and the UTA-RLDD dataset can pave the way for a more unified research on drowsiness detection so, the result of one work could be compared to others based on a realistic drowsiness dataset.": R.G
