@@ -10,7 +10,7 @@ The supporting code and data used for the paper:"A Realistic Dataset and Baselin
 
 This proposed temporal model uses blink features to detect both early and deep drowsiness with an intermediate regression step, where drowsiness is estimated with a score from 0 to 10. 
 
-## Instruction on how to use the code:
+## Instruction to Run the Code:
 *THESE CODES WERE APPLIED ON THE UTA-RLDD DATASET*
 
 *You can refer to the comments inside each .py file for more detailed information*
