@@ -93,4 +93,4 @@ https://sites.google.com/view/utarldd/home
 #### Link to the demo on youtube:
 https://youtu.be/3psnER2oVUA
 
-"I hope the result of this work and the UTA-RLDD dataset can pave the way for a more unified research on drowsiness detection so, the result of one work could be compared to others based on a realistic drowsiness dataset.": R.G
+"I hope the result of this work and the UTA-RLDD dataset can pave the way for a more unified research on drowsiness detection , so the result of one work could be compared to the others based on a realistic drowsiness dataset.": R.G
