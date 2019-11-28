@@ -81,20 +81,16 @@ Or for the conda environment you can use the following command lines:
 NOTE: References used for each code are mentioned on top of each code.
 
 #### Citation:
-All documents (such as publications, presentations, posters, etc.) that report results, analysis, research, or equivalent that were obtained by using this source should cite the following research paper:
+All documents (such as publications, presentations, posters, etc.) that report results, analysis, research, or equivalent that were obtained by using this source should cite the following research paper: https://arxiv.org/abs/1904.07312
 
-@inproceedings{ghoddoosian2019realistic,
+    @inproceedings{ghoddoosian2019realistic,
+    title={A Realistic Dataset and Baseline Temporal Model for Early Drowsiness Detection},
+    author={Ghoddoosian, Reza and Galib, Marnim and Athitsos, Vassilis},
+    booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops},
+    pages={0--0},
+    year={2019}
+    }
 
-  title={A Realistic Dataset and Baseline Temporal Model for Early Drowsiness Detection},
-  
-  author={Ghoddoosian, Reza and Galib, Marnim and Athitsos, Vassilis},
-  
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops},
-  
-  pages={0--0},
-  
-  year={2019}
-}
 
 #### Link to the UTA-RLDD dataset:
 
