@@ -84,10 +84,15 @@ NOTE: References used for each code are mentioned on top of each code.
 All documents (such as publications, presentations, posters, etc.) that report results, analysis, research, or equivalent that were obtained by using this source should cite the following research paper:
 
 @inproceedings{ghoddoosian2019realistic,
+
   title={A Realistic Dataset and Baseline Temporal Model for Early Drowsiness Detection},
+  
   author={Ghoddoosian, Reza and Galib, Marnim and Athitsos, Vassilis},
+  
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops},
+  
   pages={0--0},
+  
   year={2019}
 }
 
